@@ -29,7 +29,7 @@ jobs:
       run: cd mobile && npm run build-apk
     
     - name: Upload APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Toolencahnt-APK
         path: mobile/android/app/build/outputs/apk/release/app-release.apk
